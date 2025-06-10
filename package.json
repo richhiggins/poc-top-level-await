@@ -8,7 +8,8 @@
     "dev": "./sanity.config.dynamic.sh && sanity dev",
     "start": "sanity start",
     "build": "./sanity.config.dynamic.sh && sanity build --no-extract-manifest",
-    "deploy": "./sanity.config.dynamic.sh && sanity build --no-extract-manifest && ./sanity.config.static.sh sanity manifest extract && sanity deploy --no-build",
+    "manifest": "./sanity.config.static.sh && sanity manifest extract",
+    "deploy": "./sanity.config.dynamic.sh && sanity deploy --no-build",
     "typegen": "./sanity.config.static.sh && sanity schema extract && sanity typegen generate"
   },
   "keywords": [
