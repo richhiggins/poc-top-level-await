@@ -19,17 +19,35 @@ const currentUser = await client.request({
 
 console.log(currentUser)
 
-export default defineConfig({
+let config = {
   name: 'default',
-  title: 'Day one with Sanity',
+  title: 'Editor Workspace',
 
   projectId: '0m9j17gd',
   dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
+  plugins: [structureTool()], // no vision tool for non-admins
 
   schema: {
     types: schemaTypes,
   },
-})
+}
+
+if (currentUser.role === 'administrator') {
+  config = {
+    name: 'default',
+    title: 'Administrator Workspace',
+
+    projectId: '0m9j17gd',
+    dataset: 'production',
+
+    plugins: [structureTool(), visionTool()],
+
+    schema: {
+      types: schemaTypes,
+    },
+  }
+}
+
+export default defineConfig(config)
 " > sanity.config.ts
