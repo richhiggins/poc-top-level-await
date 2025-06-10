@@ -9,7 +9,8 @@
     "start": "sanity start",
     "build": "./createStudioConfig.sh && sanity build --no-extract-manifest",
     "deploy": "./createStudioConfig.sh && sanity build --no-extract-manifest && ./createCliConfig.sh sanity manifest extract && sanity deploy --no-build",
-    "typegen": "./createCliConfig.sh && sanity schema extract"
+    "typegen": "./createCliConfig.sh && sanity schema extract",
+    "validate": "./createCliConfig.sh && sanity schema validate"
   },
   "keywords": [
     "sanity"
