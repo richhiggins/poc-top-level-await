@@ -15,6 +15,8 @@ chmod +x ./sanity.config.static.sh
 
 Shell is lightening quick and seems to work, but could try using node scripts in the same way for easier code re-use and typing.
 
+Manifest generation is interesting and perhaps needs further cosideration as the CLI command requires the static config.
+
 <!--
     dev (dynamic) ✅
     build (dynamic) ✅
