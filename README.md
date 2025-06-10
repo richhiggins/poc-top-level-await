@@ -1,6 +1,6 @@
 # POC - Dynamic top level await
 
-POC Sanity Studio repository, exploring options to dynamically generate sanity.config and selectively enable top level await code for studio _development_ and _builds_ 👩‍💻
+POC Sanity Studio repository, exploring options to dynamically generate sanity.config and selectively enable top level await code for studio **development** and **build** 👩‍💻
 
 n.b. needs bash scripts to be executable
 
