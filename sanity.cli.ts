@@ -7,6 +7,7 @@ export default defineCliConfig({
     projectId: '0m9j17gd',
     dataset: 'production',
   },
+  studioHost: 'top-level-await',
   autoUpdates: true,
   vite: (config) => {
     return {
