@@ -20,7 +20,7 @@ Manifest generation is interesting and perhaps needs further consideration as th
 <!--
     dev (dynamic) ✅
     build (dynamic) ✅
-    manifest (static) ✅ - *maybe not ideal? (dashboard context)
+    manifest (static) ✅ - *maybe not ideal (used anywhere beyond Canvas?)
     deploy (dynamic) ✅
     typegen (static) ✅ - *exhaustive schema in static config
 -->
