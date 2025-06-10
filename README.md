@@ -1,9 +1,6 @@
 # Sanity Clean Content Studio
 
-Experimental studio to explore options to dymically generate sanity.config to
-
-- enable top level await for studio development and builds 👩‍💻
-- avoid top level await related errors for non-studio CLI tasks 🤖
+POC studio to explore options to dynamically generate sanity.config to selectively enable top level await for studio development and builds 👩‍💻
 
 n.b. needs bash scripts to be executable
 
