@@ -17,10 +17,8 @@ Shell is lightening quick and seems to work, but could try using node scripts in
 
 Manifest generation is interesting and perhaps needs further consideration as this CLI command also requires the static config.
 
-<!--
-    dev (dynamic) ✅
-    build (dynamic) ✅
-    manifest (static) ✅ - *maybe not ideal (used anywhere beyond Canvas?)
-    deploy (dynamic) ✅
-    typegen (static) ✅ - *exhaustive schema in static config
--->
+dev (dynamic) ✅
+build (dynamic) ✅
+deploy (dynamic) ✅
+manifest (static) ✅ - *maybe not ideal (used anywhere beyond Canvas?)
+typegen (static) ✅ - *import exhaustive schema in static config
