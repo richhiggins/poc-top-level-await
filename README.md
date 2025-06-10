@@ -13,4 +13,12 @@ chmod +x ./sanity.config.static.sh
 
 ## Further thoughts
 
-Shell is lightening quick and seems to work, but try using node scripts in the same way for easier code re-use and typing.
+Shell is lightening quick and seems to work, but could try using node scripts in the same way for easier code re-use and typing.
+
+<!--
+    dev (dynamic) ✅
+    build (dynamic) ✅
+    manifest (static) ✅ - *maybe not ideal? (dashboard context)
+    deploy (dynamic) ✅
+    typegen (static) ✅ - *exhaustive schema in static config
+-->
