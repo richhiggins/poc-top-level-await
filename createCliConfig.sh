@@ -1,7 +1,8 @@
-import {defineConfig} from 'sanity'
+echo "import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
+import {createClient} from '@sanity/client'
 
 export default defineConfig({
   name: 'default',
@@ -16,3 +17,4 @@ export default defineConfig({
     types: schemaTypes,
   },
 })
+" > sanity.config.ts

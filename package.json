@@ -5,11 +5,11 @@
   "main": "package.json",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "sanity dev",
+    "dev": "./createStudioConfig.sh && sanity dev",
     "start": "sanity start",
-    "build": "sanity build",
-    "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
+    "build": "./createStudioConfig.sh && sanity build --no-extract-manifest",
+    "deploy": "./createStudioConfig.sh && sanity build --no-extract-manifest && ./createCliConfig.sh sanity manifest extract && sanity deploy --no-build",
+    "typegen": "./createCliConfig.sh && sanity schema extract"
   },
   "keywords": [
     "sanity"

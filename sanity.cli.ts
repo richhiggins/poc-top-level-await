@@ -1,13 +1,20 @@
 import {defineCliConfig} from 'sanity/cli'
 
+//console.log(process.env.CLI_ENV)
+
 export default defineCliConfig({
   api: {
     projectId: '0m9j17gd',
-    dataset: 'production'
+    dataset: 'production',
   },
-  /**
-   * Enable auto-updates for studios.
-   * Learn more at https://www.sanity.io/docs/cli#auto-updates
-   */
   autoUpdates: true,
+  vite: (config) => {
+    return {
+      ...config,
+      build: {
+        ...config.build,
+        target: 'esnext',
+      },
+    }
+  },
 })
