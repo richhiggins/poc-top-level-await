@@ -2,7 +2,7 @@
 
 POC Sanity Studio repository, exploring options to dynamically generate `sanity.config.ts` in order to selectively enable top level await code for CLI **dev** and **build** commands 👩‍💻
 
-Includes example NPM run-scripts for development, build, deploy, typegen
+Includes example NPM run-scripts for dev, build, manifest, deploy, typegen
 
 The following shell scripts must be executable.
 
