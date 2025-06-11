@@ -21,7 +21,7 @@ console.log(currentUser)
 
 let config = {
   name: 'default',
-  title: 'Editor Workspace',
+  title: 'Editor Studio',
 
   projectId: '0m9j17gd',
   dataset: 'production',
@@ -36,7 +36,7 @@ let config = {
 if (currentUser.role === 'administrator') {
   config = {
     name: 'default',
-    title: 'Administrator Workspace',
+    title: 'Administrator Studio',
 
     projectId: '0m9j17gd',
     dataset: 'production',
