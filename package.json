@@ -5,12 +5,12 @@
   "main": "package.json",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "./sanity.config.dynamic.sh && sanity dev",
+    "dev": "./sanity.config.sh dynamic && sanity dev",
     "start": "sanity start",
-    "build": "./sanity.config.dynamic.sh && sanity build --no-extract-manifest",
-    "manifest": "./sanity.config.static.sh && sanity manifest extract",
-    "deploy": "./sanity.config.dynamic.sh && sanity deploy --no-build",
-    "typegen": "./sanity.config.static.sh && sanity schema extract && sanity typegen generate"
+    "build": "./sanity.config.sh dynamic && sanity build --no-extract-manifest",
+    "manifest": "./sanity.config.sh static && sanity manifest extract",
+    "deploy": "./sanity.config.sh dynamic && sanity deploy --no-build",
+    "typegen": "./sanity.config.sh static && sanity schema extract && sanity typegen generate"
   },
   "keywords": [
     "sanity"
