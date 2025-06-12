@@ -14,8 +14,8 @@ chmod +x ./sanity.config.sh
 
 Manifest generation is interesting and perhaps needs further consideration as this CLI command also requires the static config.
 
-dev (dynamic) ✅
-build (dynamic) ✅
-deploy (dynamic) ✅
-manifest (static) ✅ - *maybe not ideal (used anywhere beyond Canvas?)
+dev (dynamic) ✅<br />
+build (dynamic) ✅<br />
+deploy (dynamic) ✅<br />
+manifest (static) ✅ - *maybe not ideal (used anywhere beyond Canvas?)<br />
 typegen (static) ✅ - *import exhaustive schema in static config
